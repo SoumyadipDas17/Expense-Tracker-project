@@ -3,7 +3,7 @@ def addrecord(): ####1
     ans="Y"
     while ans=="Y":
             tpe=input("enter type(income/expense):")
-            if tpe.upper()!="INCOME" or tpe.upper()!="EXPENSE":
+            if tpe.upper()!="INCOME" and tpe.upper()!="EXPENSE":
                 print("types other than 'INCOME' or 'EXPENSE' can not be added")
                 break
             amount=float(input("enter amount:"))
