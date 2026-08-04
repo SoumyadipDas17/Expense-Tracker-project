@@ -4,20 +4,20 @@ def addrecord(): ####1
     while ans=="Y":
             tpe=input("enter type(income/expense):")
             if tpe.upper()!="INCOME" and tpe.upper()!="EXPENSE":
-                print("types other than 'INCOME' or 'EXPENSE' can not be added")
+                print("Records having type other than 'INCOME' or 'EXPENSE' can not be added")
                 break
             amount=float(input("enter amount:"))
             category=input("category:")
             date=input("date(DD/MM/YYYY):")
             if len(date)!=10 or date[2]!="/" or date[5]!="/" or not(date[0:2].isdigit()) or not(date[3:5].isdigit()) or not(date[6:10].isdigit())  :
-                print("Can't add this date becuse it is not in DD/MM/YYYY format!")
+                print("Can't add this record because the date is not in DD/MM/YYYY format!")
                 break
             record["type"]=tpe.upper()
             record["amount"]=amount
             record["category"]=category.upper()
             record["date"]=date
         
-            ans=input("want to enter more reords(y//n):").upper()
+            ans=input("want to enter more reords(y/n):").upper()
             
             pickle.dump(record,f)
          
@@ -49,7 +49,7 @@ def edit(): ####2
                 print("Can't add this date becuse it is not in DD/MM/YYYY format!")
                 entry=0
                 break
-            ans=input("want to edit more reords(y//n):")
+            ans=input("want to edit more reords(y/n):")
         if entry==0 :
             return
         fh=open("expensetracker.dat","wb")
@@ -65,7 +65,7 @@ def remove(): ####3
     while ans=="Y" :
         i=int(input("enter the serial number of the record u want to delete:"))
         serial.append(i)
-        ans=input("do u want to delete record(y//n)").upper()
+        ans=input("do u want to delete record(y/n)").upper()
     newdiction={}
     f.seek(0)
     try:
