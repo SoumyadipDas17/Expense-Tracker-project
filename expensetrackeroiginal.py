@@ -203,8 +203,8 @@ record={}
 ans="y"
 f=open("expensetracker.dat","ab+")
 while True :
-    print("\n*********************************************************************MAIN MENU*********************************************************************\n")
-    print("1.ADD\t\t2.EDIT\t\t3.REMOVE\t\t4.EXIT\t\t5.BALANCE\t\t6.FILTER\t\t7.HISTORY\t\t8.MONTHLY SUMMARY\t\t9.CATEGORYWISE TOTALS\t\t10.DELETE HISTORY")
+    print("\n**********************************************************************MAIN MENU***************************************************************************\n")
+    print("1.ADD\t2.EDIT\t3.REMOVE\t4.EXIT\t5.BALANCE\t6.FILTER\t7.HISTORY\t8.MONTHLY SUMMARY\t9.CATEGORYWISE TOTALS\t10.DELETE HISTORY")
     
     menu=int(input("\nENTER THE NUMBER PRESENT BEFORE THE OPTIONS IN ORDER TO USE IT:"))
     if menu==1 :
