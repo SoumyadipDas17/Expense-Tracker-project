@@ -22,8 +22,12 @@ This option shows the entire transaction history.
 <img width="1580" height="389" alt="Screenshot (81)" src="https://github.com/user-attachments/assets/64217234-f13d-450c-90f9-20ff2d53ee52" />
 
 **<h2>EDIT</h2>**
-This option allows the user to edit exiting record(s).
-For example, if we want to edit records of tranaction number 2 and 3
+This option allows the user to edit exiting record(s). The user will be asked to enter the transaction number(s) for the records the user want to edit. After editing a particular record the user will be asked whether he/she wants to edit any more record. If the user wants to edit more, he/she will press 'y' else 'n'. 
+For example, if we want to edit the records of transaction number 2 and 3, we will do in the way shown in the below figure.
+<img width="1588" height="712" alt="Screenshot (82)" src="https://github.com/user-attachments/assets/1d293b2b-c693-4fdb-a366-763063b96ed2" />
+As we can see in the transaction history, the required records have been edited.
+
+
 **<h2>EXIT</h2>**
 
 You can see that the main menu appears again after performing that tasks of an option of the main menu, be this is because the program runs on an infinite loop. Hence you have to use the EXIT option of the main menu. By doing so, the infinite loop will break and u will have exit from the program.
