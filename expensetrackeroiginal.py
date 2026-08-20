@@ -36,7 +36,7 @@ def edit(): ####2
         while ans=="y":
             serial=int(input(" enter transaction number whose record u want to edit:"))
             l[serial-1]["type"]=input("enter type(income/expense):").upper()
-            if l[serial-1]["type"]!="INCOME" or l[serial-1]["type"]!="EXPENSE" :
+            if l[serial-1]["type"]!="INCOME" and l[serial-1]["type"]!="EXPENSE" :
                 print("types other than 'INCOME' or 'EXPENSE' can not be added")
                 entry=0
                 break
