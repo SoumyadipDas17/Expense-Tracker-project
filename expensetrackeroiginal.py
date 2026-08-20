@@ -59,7 +59,7 @@ def edit(): ####2
         fh.close()    
 
 def remove(): ####3
-    ans=input("Do u want to delete record(y//n)").upper()
+    ans=input("Do u want to delete record(y/n)").upper()
     serial=[]
     l=[]
     while ans=="Y" :
