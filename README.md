@@ -26,6 +26,9 @@ This option allows the user to edit exiting record(s). The user will be asked to
 For example, if we want to edit the records of transaction number 2 and 3, we will do in the way shown in the below figure.
 <img width="1588" height="712" alt="Screenshot (82)" src="https://github.com/user-attachments/assets/1d293b2b-c693-4fdb-a366-763063b96ed2" />
 As we can see in the transaction history, the required records have been edited.
+**<h2>REMOVE</h2>**
+This option of the main menu is used to remove record(s). Each time the user will be asked whether he/she wants to delete any records or not. If the user wants to delete, he/she has to input the transaction number of 
+
 
 
 **<h2>EXIT</h2>**
