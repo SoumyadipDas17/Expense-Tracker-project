@@ -27,7 +27,11 @@ For example, if we want to edit the records of transaction number 2 and 3, we wi
 <img width="1588" height="712" alt="Screenshot (82)" src="https://github.com/user-attachments/assets/1d293b2b-c693-4fdb-a366-763063b96ed2" />
 As we can see in the transaction history, the required records have been edited.
 **<h2>REMOVE</h2>**
-This option of the main menu is used to remove record(s). Each time the user will be asked whether he/she wants to delete any records or not. If the user wants to delete, he/she has to input the transaction number of 
+This option of the main menu is used to remove record(s). Each time the user will be asked whether he/she wants to delete any records or not. If the user wants to delete records then each time he/she has to input the transaction numbers of the records that he/she wants to delete. After the records are removed, the new transaction history will be shown to the user.
+
+For example, if we want to remove the records of transaction number 1,3 and 4, we will do in this way :-
+<img width="1583" height="502" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/fdbf1877-7dc0-43ee-b42a-a8c0921c0c77" />
+
 
 
 
@@ -35,4 +39,8 @@ This option of the main menu is used to remove record(s). Each time the user wil
 
 You can see that the main menu appears again after performing that tasks of an option of the main menu, be this is because the program runs on an infinite loop. Hence you have to use the EXIT option of the main menu. By doing so, the infinite loop will break and u will have exit from the program.
 
+
+**<h2>Here we are adding some more records in order to demonstrate the other options of the main menu</h2>**
+<img width="1584" height="932" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/cd4aaeef-eafe-481c-b0d5-ed45e4afa60a" />
+The transaction history looks like :-<img width="1582" height="430" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/632da36f-4d72-4f12-b205-937d6f558c63" />
 
