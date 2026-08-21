@@ -50,3 +50,9 @@ The transaction history looks like :-
 
 <img width="1582" height="430" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/632da36f-4d72-4f12-b205-937d6f558c63" />
 
+**<h2>BALANCE</h2>**
+
+This option will show the balance along with total income and expense.
+<img width="1590" height="317" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/712c3e9f-10bf-482b-8516-cc0cfba21aad" />
+
+
