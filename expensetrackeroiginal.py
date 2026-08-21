@@ -59,13 +59,13 @@ def edit(): ####2
         fh.close()    
 
 def remove(): ####3
-    ans=input("Do u want to delete record(y/n)").upper()
+    ans=input("Do you want to delete record(y/n):").upper()
     serial=[]
     l=[]
     while ans=="Y" :
-        i=int(input("enter the serial number of the record u want to delete:"))
+        i=int(input("Enter the transaction number of the record you want to delete:"))
         serial.append(i)
-        ans=input("do u want to delete record(y/n)").upper()
+        ans=input("Do you want to delete record(y/n):").upper()
     newdiction={}
     f.seek(0)
     try:
@@ -81,7 +81,7 @@ def remove(): ####3
     for i in l :
         pickle.dump(i,fh)
     fh.close()
-    print("records has been removed from your transaction history/nyour current transaction history is :-")
+    print("records has been removed from your transaction history\nyour current transaction history is :-")
     history ()
                             
     
