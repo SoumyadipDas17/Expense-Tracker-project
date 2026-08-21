@@ -42,5 +42,11 @@ You can see that the main menu appears again after performing that tasks of an o
 
 **<h2>Here we are adding some more records in order to demonstrate the other options of the main menu</h2>**
 <img width="1584" height="932" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/cd4aaeef-eafe-481c-b0d5-ed45e4afa60a" />
-The transaction history looks like :-<img width="1582" height="430" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/632da36f-4d72-4f12-b205-937d6f558c63" />
+
+
+
+
+The transaction history looks like :-
+
+<img width="1582" height="430" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/632da36f-4d72-4f12-b205-937d6f558c63" />
 
