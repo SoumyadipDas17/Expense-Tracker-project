@@ -2,7 +2,7 @@ import pickle
 def addrecord(): ####1
     ans="Y"
     while ans=="Y":
-            tpe=input("enter type(income/expense):")
+            tpe=input("enter type(income/expense):")            
             if tpe.upper()!="INCOME" and tpe.upper()!="EXPENSE":
                 print("Records having type other than 'INCOME' or 'EXPENSE' can not be added")
                 break
@@ -60,6 +60,8 @@ def edit(): ####2
 
 def remove(): ####3
     ans=input("Do you want to delete record(y/n):").upper()
+    if ans!='Y' :
+        return
     serial=[]
     l=[]
     while ans=="Y" :
@@ -81,7 +83,7 @@ def remove(): ####3
     for i in l :
         pickle.dump(i,fh)
     fh.close()
-    print("records has been removed from your transaction history\nyour current transaction history is :-")
+    print("records have been removed from your transaction history\nyour current transaction history is :-")
     history ()
                             
     
@@ -107,8 +109,8 @@ def balance():  ####5
 def filter():       ####6
     f.seek(0)
     
-    print("\t1.type\t2.amount\t3.category\t4.date:")
-    x=int(input("enter filter: "))
+    print("\n\n\t1.type\t2.amount\t3.category\t4.date:")
+    x=int(input("Enter the number present before the field: "))
     fd={}
     if x==1:
            fil="type"
@@ -119,9 +121,9 @@ def filter():       ####6
     elif x==4:
            fil="date"
     if x==2 :       
-        val=float(input("enter value:"))
+        val=float(input("Enter the value of the field :"))
     else :
-        val=input("enter value:").upper()
+        val=input("Enter the value of the field :").upper()
     
     try :
         while True :
@@ -149,8 +151,8 @@ def history():      ####7
         print("")
 
 def monthlysummary():       ####8
-    m=input("enter month")
-    y=input("enter year")
+    m=int(input("Enter month :"))
+    y=input("Enter year :")
     a={}
     record={}
     f.seek(0)
@@ -160,7 +162,7 @@ def monthlysummary():       ####8
             a=pickle.load(f)
             
 
-            if (a["date"][3:5] == m) and ( a["date"][6:10]==y) :
+            if (int(a["date"][3:5]) == m) and ( a["date"][6:10]==y) :
                 if a["type"] not in record:
                     record[a["type"]]=a["amount"]
                 else:
@@ -177,7 +179,7 @@ def monthlysummary():       ####8
         if "EXPENSE" in record:
             print("expense is :",record["EXPENSE"])
             del record["EXPENSE"]
-        print ("\n\t\t\t\t\t\t*************categorywise totals*************\n")
+        print (f"\n\t\t\t\t\t\t*************categorywise totals of {m}/{y} : *************\n")
         
         for i in record :
             print(i,":",record[i])
@@ -230,10 +232,12 @@ while True :
     elif menu==9 :
         categorywisetotals()
     elif menu==10 :
-        choice=input("WARNING!!!\n your entire transaction history will be deleted. Do you want to delete your entire transaction history(y/n):")
+        print("\n\nWARNING!!!\nyour entire transaction history will be deleted.".upper())
+        choice=input("Do you want to delete your entire transaction history(y/n) :")
         if choice=="y" :
             fh=open("expensetracker.dat","wb")
             fh.close()
+            print ("Your entire transaction history has been deleted.")
     else :
         print("INVALID CHOICE!!")
             
