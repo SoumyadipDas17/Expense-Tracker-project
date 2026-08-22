@@ -239,7 +239,7 @@ while True :
             fh.close()
             print ("Your entire transaction history has been deleted.")
     else :
-        print("INVALID CHOICE!!")
+        print("INVALID ENTRY!!")
             
         
                
