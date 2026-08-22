@@ -69,4 +69,11 @@ This option deletes the entire transaction history. At first a warning message w
 As you can see in the figure above, after deleting the entire transaction history, no record is present in the transaction history.
 
 
+**<hr>Important thing to be kept in mind :-</hr>**
+
+
+If the user enters any number other than the numbers present before the options of the main menu, a message "INVALID ENTRY!!" will be displayed.
+<img width="1590" height="268" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/c9c7325d-2dd7-440d-93e8-9dfd33750f2d" />
+
+
 
