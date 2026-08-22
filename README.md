@@ -51,9 +51,22 @@ The above is the transaction history after adding some more records.
 
 This option will show the balance along with total income and expense.
 <img width="1602" height="292" alt="Screenshot (91)" src="https://github.com/user-attachments/assets/9ee713d5-5c24-419a-bad4-adb9a5db222e" />
+**<h2>FILTER</h2>**
+This option allows the user to filter out only those records having a particular value in its field. At first, the user has to input the number present before the field then the user has to to enter the value of the field in order to filter out the records having the particular input value of the field.
+
+Given below are the examples of the applications of filter option of the main menu.
+<img width="1628" height="934" alt="Screenshot (93)" src="https://github.com/user-attachments/assets/a67ee57d-09c2-421e-b420-d462d1122ece" />
+
 
 **<h2>MONTHLY SUMMARY</h2>**
 This option will give the monthly summary. The user has to give the month and the year as input. In the output the user gets the total income and the total expense along with the category-wise totals of the given month of the given year.<img width="1586" height="459" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/a92258a1-3eed-4cc5-b98e-02bc41c80802" />
+**<h2>CATEGORYWISE TOTALS</h2>**
+This option of the main menu displays the category-wise total income/expense of given input category from the entire records stored in the computer.
+<img width="1598" height="749" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/77c2ff95-fc9f-439f-bc15-0ff8cfb7b6bb" />
+**<h2>DELETE HISTORY</h2>**
+This option deletes the entire transaction history. At first a warning message will be displayed and the user will be asked whether he/she wants to delete the entire transaction history or not. If the user enter 'y' (or 'Y'), the entire transaction history will be deleted and a message "Your entire transaction history has been deleted." will be displayed.
+<img width="1580" height="537" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/4d6647fa-5fa0-4c48-9c0c-38de83384237" />
+As you can see in the figure above, after deleting the entire transaction history, no record is present in the transaction history.
 
 
 
