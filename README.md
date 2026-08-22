@@ -40,19 +40,20 @@ For example, if we want to remove the records of transaction number 1,3 and 4, w
 You can see that the main menu appears again after performing that tasks of an option of the main menu, be this is because the program runs on an infinite loop. Hence you have to use the EXIT option of the main menu. By doing so, the infinite loop will break and u will have exit from the program.
 
 
-**<h2>Here we are adding some more records in order to demonstrate the other options of the main menu</h2>**
-<img width="1584" height="932" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/cd4aaeef-eafe-481c-b0d5-ed45e4afa60a" />
+**<h2>Some more records have been added  in order to demonstrate the other options of the main menu</h2>**
+
+<img width="1586" height="478" alt="Screenshot (90)" src="https://github.com/user-attachments/assets/a121ea22-2a1c-48ed-b941-5ab60d22d0cf" />
 
 
-
-
-The transaction history looks like :-
-
-<img width="1582" height="430" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/632da36f-4d72-4f12-b205-937d6f558c63" />
+The above is the transaction history after adding some more records.
 
 **<h2>BALANCE</h2>**
 
 This option will show the balance along with total income and expense.
-<img width="1590" height="317" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/712c3e9f-10bf-482b-8516-cc0cfba21aad" />
+<img width="1602" height="292" alt="Screenshot (91)" src="https://github.com/user-attachments/assets/9ee713d5-5c24-419a-bad4-adb9a5db222e" />
+
+**<h2>MONTHLY SUMMARY</h2>**
+This option will give the monthly summary. The user has to give the month and the year as input. In the output the user gets the total income and the total expense along with the category-wise totals of the given month of the given year.<img width="1586" height="459" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/a92258a1-3eed-4cc5-b98e-02bc41c80802" />
+
 
 
